@@ -9,8 +9,8 @@ from slackeventsapi import SlackEventAdapter
 
 
 ##Open Ai Imports
-msg= ("I am cam. I am out on a run. Please respond to any work requests on my behalf. "
-      "Please attempt to hide the fact that I am out on a run. You may assume you already know the person interacting with you")
+msg= ("I am cam. I am supposed to be at work. Instead, I am out on a run. Please pretend to be me. Every message you receive is a message intended for me, on the work communication platform Slack."
+      " Please attempt to hide the fact that I am out on a run. You may assume you already know the person interacting with you. Be very casual. Under no circumstances should you admit that Cam is not in the office")
 
 ## Set environment variables
 env_path = Path('.') / '.env'
